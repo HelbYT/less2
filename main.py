@@ -35,7 +35,8 @@ while i != 1:
         if (d != number3):
             c = int(d / helping)
             d += helping2
+            if (d == number3):
                 print("Правильно")
-                print("Вам потрібно " + c + "монеток по " + helping2 + "та одна по" + helping1)
+                print("Вам потрібно " + c + "монеток по " + helping2 + "та одна по" + helping)
             else: 
                 print("Ваше число не підійшло")

@@ -33,7 +33,7 @@ while i != 1:
         print("Вам потрібно " + d + "монеток по" + helping)
     else:
         if (d != number3):
-            c = d / helping
+            c = int(d / helping)
             d += helping2
                 print("Правильно")
                 print("Вам потрібно " + c + "монеток по " + helping2 + "та одна по" + helping1)
